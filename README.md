@@ -3,25 +3,8 @@
 This project uses **YOLOv5** (You Only Look Once) for real-time weapon detection. The system is capable of identifying weapons in images or video streams and providing predictions. It also includes a text-to-speech feature that notifies the user when a weapon is detected with a high confidence level.
 
 ## Project Structure
-AIYolov5/
-│
-├── content/
-│   ├── yolov5/
-│   │   └── runs/
-│   │       └── train/
-│   │           └── yolov5s_results/
-│   │               ├── best.pt           # Best model after training
-│   │               ├── last.pt           # Latest model weights
-│   │               └── image.jpg         # Resulting image from the model
-│   ├── PredictionCode/
-│   │   ├── main.py                     # Prediction script
-│   │   └── requirements.txt            # Required dependencies for the prediction code
-│   ├── TrainingCode/
-│   │   └── (Training code is downloaded from Colab after training)
-│   ├── data.yaml                      # Contains class names of weapons
-│   ├── best.pt                        # YOLOv5 model 
-└── README.md
 
+AIYolov5/ │ ├── content/ │ ├── yolov5/ │ │ └── runs/ │ │ └── train/ │ │ └── yolov5s_results/ │ │ ├── best.pt # Best model after training │ │ ├── last.pt # Latest model weights │ │ └── image.jpg # Resulting image from the model │ ├── PredictionCode/ │ │ ├── main.py # Prediction script │ │ ├── text_to_speech.py # Text-to-speech functionality │ │ └── requirements.txt # Required dependencies for the prediction code │ ├── TrainingCode/ │ │ └── (Training code is downloaded from Colab after training) │ ├── data.yaml # Contains class names of weapons └── README.md
 
 ---
 
