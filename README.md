@@ -39,7 +39,6 @@ Start by cloning the repository to your local machine:
 
 ```bash
 git clone <your-repository-url>
-cd AIYolov5
 ```
 
 ### 2. Install Dependencies
@@ -52,6 +51,7 @@ ultralytics: For YOLOv5 model operations.
 To install these, navigate to the PredictionCode folder and run:
 
 ```bash
+cd PredictionCode
 pip install -r requirements.txt
 ```
 ### 3. Training the Model (In Google Colab)
