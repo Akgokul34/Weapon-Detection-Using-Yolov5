@@ -15,6 +15,7 @@ This project uses **YOLOv5** (You Only Look Once) for real-time weapon detection
 - `TrainingCode/`: Folder containing the training code (downloaded after training on Colab).
     - `TrainingCode/`: Folder containing the training code (downloaded after training on Colab).
 - `data.yaml`: File containing the class names for weapon detection.
+- `best.pt`: model for weapon detection.
 
 
 ---
