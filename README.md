@@ -4,7 +4,18 @@ This project uses **YOLOv5** (You Only Look Once) for real-time weapon detection
 
 ## Project Structure
 
-AIYolov5/ │ ├── content/ │ ├── yolov5/ │ │ └── runs/ │ │ └── train/ │ │ └── yolov5s_results/ │ │ ├── best.pt # Best model after training │ │ ├── last.pt # Latest model weights │ │ └── image.jpg # Resulting image from the model │ ├── PredictionCode/ │ │ ├── main.py # Prediction script │ │ ├── text_to_speech.py # Text-to-speech functionality │ │ └── requirements.txt # Required dependencies for the prediction code │ ├── TrainingCode/ │ │ └── (Training code is downloaded from Colab after training) │ ├── data.yaml # Contains class names of weapons └── README.md
+
+- `content/`: Contains all the project files.
+  - `yolov5/`: The YOLOv5 repository and training output.
+    - `runs/train/yolov5s_results/`: Contains the training results such as model weights (`best.pt`, `last.pt`) and images.
+- `PredictionCode/`: Contains scripts for making predictions.
+    - `main.py`: The main script for making predictions.
+    - `text_to_speech.py`: Script for converting text to speech.
+    - `requirements.txt`: Lists the dependencies needed for running the prediction code.
+- `TrainingCode/`: Folder containing the training code (downloaded after training on Colab).
+    - `TrainingCode/`: Folder containing the training code (downloaded after training on Colab).
+- `data.yaml`: File containing the class names for weapon detection.
+
 
 ---
 
